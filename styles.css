@@ -24,12 +24,13 @@ body {
 
 .navbar {
    display: flex;
-   justify-content: space-between; /* centers items horizontally */
-   align-items: center; /*centers item vertically */
-   padding: 15px 0;
-   gap: 20px; /* Adds space between the navbar option */
-   background: #333;
-   color: white;
+   justify-content: space-between; 
+   align-items: center; 
+   padding: 15px 40p;
+   gap: 20px; 
+   background: var(--nav-bg);
+   color: var(--nav-text);
+   transition: background 0.3s ease;
 }
 
 .navbar a {
